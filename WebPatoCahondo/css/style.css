@@ -26,7 +26,7 @@ li { cursor: pointer; }
 #header{
 	background-color: rgba(100,200,190,0.5);
 
-	height: 67px;
+	height: 57px;
 
 	
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
@@ -51,9 +51,9 @@ li { cursor: pointer; }
 /*Logo y nombre, redirige a arriba, está contenido en partleft*/
 #logo{
 	height: 100%;
-	width: 30%;
+	width: 200px;
 	background-color: rgba(221,57,2,1);
-	margin-right: 320px;
+	margin-right: 40%;
 	float: right;
 
 }
