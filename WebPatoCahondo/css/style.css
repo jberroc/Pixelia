@@ -102,3 +102,38 @@ li { cursor: pointer; }
 .active2{
   color: rgba(45, 0, 229, 1);
 }
+
+
+section{
+ background-color:#F0FFFF;
+ margin: 0 auto;
+ width: 500px;
+  height: 10%;
+}
+
+#article1{
+  background-color:#8A0886;
+  margin: 0 auto;
+ width: 700px;
+  height: 75%;
+}
+
+#article2{
+  background-color:#8A0886;
+  margin: 0 auto;
+  width: 34%;
+  height: 2000px;
+}
+
+footer{
+ 	background-color: orange;
+    left: 0;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+    overflow:hidden;
+}
+
+p {
+  padding-top: 25px;
+
