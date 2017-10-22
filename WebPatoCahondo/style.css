@@ -1,0 +1,139 @@
+body{
+
+	background-color: transparent; 
+	background:url(../images/ii.png);
+    background-size: cover;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'BebasNeue';
+    text-align: center;
+    padding-top: 0px;
+
+}
+*{
+	margin:0;
+	padding:0;
+	color: #000;
+
+}
+
+ul {
+  list-style-type: none;
+}
+li { cursor: pointer; }
+
+#header{
+	background-color: rgba(100,200,190,0.5);
+
+	height: 57px;
+
+	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+}
+
+
+/* El header se divide en 2 partes iguales, partleft y partright, que dividen la pantalla en 2 en esa parte*/
+#partleft{
+	float: left;
+	background-color: rgba(32, 198, 49, 1);
+	height: 100%;
+	width: 49%;
+}
+#partright{
+	float: left;
+	background-color: rgba(209, 198, 49, 1);
+	height: 100%;
+	width: 51%;
+}
+
+/*Logo y nombre, redirige a arriba, está contenido en partleft*/
+#logo{
+	height: 100%;
+	width: 200px;
+	background-color: rgba(221,57,2,1);
+	margin-right: 40%;
+	float: right;
+
+}
+
+/*Lista de opciones a mostrar, el menu esta contenido en partright*/
+#menu{
+	height: 100%;
+	width: 70%;
+	background-color: rgba(122,57,290,1);
+	margin-left: 20px;
+	float: left;
+
+}
+
+/*Lista para el menu*/
+.lista{
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(98,122,2,1);
+}
+
+.elem1{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	background-color: rgba(98,122,290,0.5);
+	text-align:center;
+}
+
+.elem1 span {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+
+}
+
+/*Se aplica al hoverar un boton*/
+.active{
+  color: rgba(45, 220, 229, 1);
+}
+
+/*Se aplica al clicar un boton*/
+.active2{
+  color: rgba(45, 0, 229, 1);
+}
+
+
+section{
+ background-color:#F0FFFF;
+ margin: 0 auto;
+ width: 500px;
+  height: 10%;
+}
+
+#article1{
+  background-color:#8A0886;
+  margin: 0 auto;
+ width: 700px;
+  height: 75%;
+}
+
+#article2{
+  background-color:#8A0886;
+  margin: 0 auto;
+  width: 34%;
+  height: 2000px;
+}
+
+footer{
+ 	background-color: orange;
+    left: 0;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+    overflow:hidden;
+}
+
+p {
+  padding-top: 25px;
+
