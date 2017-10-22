@@ -24,37 +24,92 @@ ul {
 li { cursor: pointer; }
 
 #header{
-	background-color: rgba(100,200,190,0.5);
+	/*background-color: rgba(0,0,0,0.8);*/
 
-	height: 57px;
+	height: 59px;
 
 	
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+	/*box-shadow: 5px 5px 5px rgba(255,255,255,0.7);
+	box-shadow: inset 0px -2px 2px 0px rgba(255,255,255,1), inset 0px 1px 6px 0px rgba(0,0,0,1);*/
 }
 
 
 /* El header se divide en 2 partes iguales, partleft y partright, que dividen la pantalla en 2 en esa parte*/
 #partleft{
 	float: left;
-	background-color: rgba(32, 198, 49, 1);
+	/*background-color: rgba(32, 198, 49, 1);*/
 	height: 100%;
 	width: 49%;
 }
 #partright{
 	float: left;
-	background-color: rgba(209, 198, 49, 1);
+	background-color: rgba(0, 0, 0, 1);
 	height: 100%;
 	width: 51%;
+
+}
+
+
+#nologo{
+	height: 100%;
+	width: 40%;
+	float: right;
+	background-color: rgba(0,0,0,1);
 }
 
 /*Logo y nombre, redirige a arriba, está contenido en partleft*/
 #logo{
 	height: 100%;
 	width: 200px;
-	background-color: rgba(221,57,2,1);
-	margin-right: 40%;
+	/*background-color: rgba(221,57,2,1);*/
 	float: right;
+
+}
+
+#postlogo{
+	height: 100%;
+	width: calc(60% - 200px);
+	background-color: rgba(0,0,0,1);
+	float: right;
+}
+
+/*Dentro del logo hay 2 partes separadas por la imagen que hace la x*/
+#logoleft{
+	height: 100%;
+	width: 78px;
+	background-color: rgba(0,0,0,1);
+	margin-right: 0%;
+	float: right;
+		text-align: left;
+		padding-left: 7px;
+vertical-align: middle;
+line-height: 60px; 
+	color: rgba(255,255,255,1);
+	font-size: 49px;
+
+}
+#logocenter{
+	height: 100%;
+	width: 30px;
+			background: transparent url(../aa.png) no-repeat 50% 20%;
+		background-size: cover;
+	margin-right: 0%;
+	float: right;
+
+}
+#logoright{
+	height: 100%;
+	width: 78px;
+	background-color: rgba(0,0,0,1);
+	margin-right: 0%;
+	float: right;
+		text-align: right;
+		text-indent: 20px;
+		padding-right: 7px;
+vertical-align: middle;
+line-height: 60px; 
+	color: rgba(255,255,255,1);
+	font-size: 49px;
 
 }
 
@@ -62,8 +117,8 @@ li { cursor: pointer; }
 #menu{
 	height: 100%;
 	width: 70%;
-	background-color: rgba(122,57,290,1);
-	margin-left: 20px;
+	/*background-color: rgba(122,57,290,1);*/
+	margin-left: 10px;
 	float: left;
 
 }
@@ -73,36 +128,44 @@ li { cursor: pointer; }
 	float: left;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(98,122,2,1);
+	/*background-color: rgba(98,122,2,1);*/
 }
 
 .elem1{
 	float: left;
 	width: 33.3%;
 	height: 100%;
-	background-color: rgba(98,122,290,0.5);
+	/*background-color: rgba(98,122,290,0.5);*/
 	text-align:center;
 }
 
 .elem1 span {
   display: block;
   position: relative;
-  top: 50%;
+  top: 47%;
   transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 23px;
+
+}
+.iluminar{
+	color: rgba(255, 255, 255, 1);
+
+}
+
+.iluminar2{
+	color: rgba(255, 255, 255, 1);
 
 }
 
 /*Se aplica al hoverar un boton*/
 .active{
-  color: rgba(45, 220, 229, 1);
+  color: rgba(179, 251, 255, 1);
 }
 
 /*Se aplica al clicar un boton*/
 .active2{
   color: rgba(45, 0, 229, 1);
 }
-
 
 section{
  background-color:#F0FFFF;
