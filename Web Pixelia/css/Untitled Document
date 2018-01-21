@@ -1,0 +1,72 @@
+</div>
+
+<div class="class1" style="background-color:#F0FFFF;">
+    <p>Hola</p>
+  </div>
+  <div class="class2" style="background-color:#1AB99E;">
+    <img src="https://media.giphy.com/media/9aF459eKEsNP2/source.gif" alt="Human Music" width="100%" height="600">
+  </div>
+  <div class="class3" style="background-color:#F0FFFF;">
+    <p>Que tal somos el pato cachondo</p>
+  </div>
+	
+<aside>
+  <img src="https://static3.depositphotos.com/1004759/266/i/950/depositphotos_2665946-stock-photo-rock-wall-background-vertical.jpg" alt="Human Music" width="100" height="100%">
+</aside>
+
+  <section>
+  
+  <h3>El Pato Cachondo</h3>
+  <p>Es una empresa de puta madre. Rodri paga la coca primer aviso</p>
+
+<p><strong>Mas cosas:</strong> Veremos que tal sale esto</p>
+
+</section>
+
+<article>
+
+
+
+  <h1>El Pato cachondo</h1>
+  <p>Aquí se puede escribir un articulo o algo que queramos</p>
+
+<p><strong>Como ejemplo:</strong> La foto de abajo tiene link</p>
+
+
+
+ <a href="https://es-la.facebook.com/Smokingglasses/">
+<img border="0" alt="El Pato" src="http://www.barcobar.com/wp-content/uploads/SMOKING-GLASSES.jpg" width="200" height="100">
+</a>
+
+
+
+</article>
+
+
+
+
+
+
+
+.class1,
+.class2,
+.class3 {
+  width: 100%;
+  float: left;
+  height: 33%;
+}
+
+section{
+  background-color:#F0FFFF
+  width: 100%;
+}
+article{
+  width: 100%;
+}
+
+aside{
+
+  height: 100%;
+  width: 100px;
+  right:0;
+}
